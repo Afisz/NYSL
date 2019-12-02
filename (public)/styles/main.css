@@ -1,0 +1,567 @@
+@media only screen and (orientation: portrait) {
+  .part-1-1 {
+    margin-top: 2vh !important;
+    height: 20vh;
+  }
+
+  #content-1 {
+    border-radius: 25px;
+    border: 2px solid #4d4d4d;
+    margin-top: 2vh;
+    margin-bottom: 0vh;
+    margin-left: 2.5vw;
+    margin-right: 2.5vw;
+    padding: 20px;
+    box-sizing: border-box;
+    overflow-y: auto;
+    height: 43vh;
+    /*Second position => height: 77vh*/
+    background-color: rgba(255, 255, 255, 0.8);
+    box-shadow: 5px 5px 5px 1px rgba(0, 0, 0, 0.5);
+  }
+
+  .part-1-3 {
+    height: 29vh;
+    margin-top: 2vh;
+    margin-bottom: 2vh;
+  }
+
+  .part-2-1 {
+    height: 8vh;
+    position: absolute;
+    top: 14vh;
+  }
+
+  iframe {
+    height: 70.5vh;
+    width: 83.5vw;
+  }
+
+  .part-2-3 {
+    height: 13vh;
+  }
+
+  #logo {
+    height: 18vh;
+    opacity: 0;
+  }
+
+  .page-name-header {
+    line-height: 9vh;
+    opacity: 0;
+    position: absolute;
+  }
+
+  #brand-name {
+    height: 18vh;
+    line-height: 4.5vh;
+    font-family: sans-serif;
+    font-weight: 600;
+    opacity: 0;
+  }
+
+  .background-image {
+    background-image: url("img/5.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+  }
+
+
+  /*Buttons*/
+  #boton1 {
+    z-index: 4 !important;
+    position: relative;
+    height: 8vh;
+    margin-top: 0vh;
+  }
+
+  #boton2 {
+    z-index: 1 !important;
+    position: relative;
+    height: 8vh;
+    margin-top: 2vh;
+  }
+
+  #boton3 {
+    z-index: 0 !important;
+    position: relative;
+    height: 8vh;
+    margin-top: 2vh;
+  }
+
+  #boton4 {
+    z-index: 3;
+    position: relative;
+    height: 8vh;
+    margin-top: 2vh;
+    top: -30vh;
+    opacity: 0;
+  }
+
+  #boton5 {
+    z-index: 2;
+    position: relative;
+    height: 8vh;
+    margin-top: 2vh;
+    top: -40vh;
+  }
+
+  #modal-button,
+  #sign-in-button,
+  #sign-out-button {
+    width: 100%;
+  }
+
+  #sign-in-button-google {
+    width: 40vw;
+    height: 9.63vw;
+  }
+
+  .button-color {
+    width: 85vw;
+    box-sizing: border-box;
+    background-color: #4d4d4d !important;
+    box-shadow: 5px 5px 5px 1px rgba(0, 0, 0, 0.5);
+  }
+
+  .button-color-2 {
+    width: 100%;
+    box-sizing: border-box;
+    background-color: #4d4d4d !important;
+    font-size: 15px;
+    padding: 0px;
+  }
+
+  .form-buttons {
+    width: 100%;
+  }
+
+  /*Icons*/
+  .icon3 {
+    color: #4d4d4d;
+    font-size: 180%;
+  }
+
+  .icon4 {
+    color: #4d4d4d;
+    font-size: 110%;
+  }
+
+  .icon5 {
+    color: #4d4d4d;
+    font-size: 170%;
+  }
+
+  .icon6 {
+    color: #4d4d4d;
+    font-size: 170%;
+  }
+
+  .icon7 {
+    color: #4d4d4d;
+    font-size: 200%;
+  }
+
+
+  h5 {
+    margin: 0px;
+  }
+
+  table {
+    opacity: 0;
+  }
+
+  thead {
+    text-align: center;
+  }
+
+
+  tbody {
+    text-align: center;
+  }
+
+  .first-column {
+    text-align: left;
+  }
+
+  a {
+    color: black;
+  }
+
+  [data-href] {
+    cursor: pointer;
+  }
+
+  tr {
+    width: 100%;
+  }
+
+  .index-rows {
+    margin-top: 4vh;
+  }
+
+  .modal-content {
+    border-radius: 25px;
+    border: 2px solid #4d4d4d;
+    width: 95vw;
+  }
+
+  .animationpPart-1-2 {
+    opacity: 0;
+  }
+
+  #map {
+    opacity: 1 !important;
+    width: 83.5vw !important;
+    height: 100% !important;
+  }
+
+  #team-select-options {
+    position: absolute !important;
+    opacity: 1 !important;
+    top: 65vh;
+    left: 0%;
+  }
+
+  #teamSelect {
+    width: 48vw;
+    margin-right: 1vw;
+  }
+
+  .whatsapp-border-space {
+    padding-left: 3vw;
+  }
+
+  .loc-underline {
+    text-decoration: underline;
+  }
+
+  #setup_button {
+    display: none;
+  }
+
+  .modFoo1 {
+    display: inline-block;
+    width: 47vw;
+  }
+
+  .modFoo2 {
+    display: inline-block;
+    width: 35vw;
+    margin-left: 4vw;
+    padding-top: 0.2vh;
+  }
+
+  .modFoo3 {
+    margin-top: 0.75vh;
+    text-align: right;
+  }
+}
+
+
+@media all and (display-mode: standalone) {
+
+  .html-body {
+    position: fixed;
+    -webkit-user-select: none;
+    -webkit-tap-highlight-color: transparent;
+    -webkit-touch-callout: none;
+  }
+}
+
+
+@media only screen and (orientation: landscape) {
+  body.primary {
+    transform: rotate(-90deg);
+    transform-origin: left top;
+    width: 100vh;
+    height: 100vw;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    position: absolute;
+    top: 100%;
+    left: 0;
+  }
+
+  body.secondary {
+    transform: rotate(90deg);
+    transform-origin: right top;
+    width: 100vh;
+    height: 100vw;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    position: absolute;
+    top: 100%;
+    right: 0;
+  }
+
+  .part-1-1 {
+    margin-top: 2vw !important;
+    height: 20vw;
+  }
+
+  #content-1 {
+    border-radius: 25px;
+    border: 2px solid #4d4d4d;
+    margin-top: 2vw;
+    margin-bottom: 0vw;
+    margin-left: 2.5vh;
+    margin-right: 2.5vh;
+    padding: 20px;
+    box-sizing: border-box;
+    overflow-y: auto;
+    height: 43vw;
+    /*Second position => height: 77vh*/
+    background-color: rgba(255, 255, 255, 0.8);
+    box-shadow: 5px 5px 5px 1px rgba(0, 0, 0, 0.5);
+  }
+
+  .part-1-3 {
+    height: 29vw;
+    margin-top: 2vw;
+    margin-bottom: 2vw;
+  }
+
+  .part-2-1 {
+    height: 8vw;
+    position: absolute;
+    top: 14vw;
+  }
+
+  iframe {
+    height: 70.5vw;
+    width: 83.5vh;
+  }
+
+  .part-2-3 {
+    height: 13vw;
+  }
+
+  #logo {
+    height: 18vw;
+    opacity: 0;
+  }
+
+  .page-name-header {
+    line-height: 9vw;
+    opacity: 0;
+    position: absolute;
+  }
+
+  #brand-name {
+    height: 18vw;
+    line-height: 4.5vw;
+    font-family: sans-serif;
+    font-weight: 600;
+    opacity: 0;
+  }
+
+  .background-image {
+    background-image: url("img/5.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vw;
+  }
+
+
+  /*Buttons*/
+  #boton1 {
+    z-index: 4 !important;
+    position: relative;
+    height: 8vw;
+    margin-top: 0vw;
+  }
+
+  #boton2 {
+    z-index: 1 !important;
+    position: relative;
+    height: 8vw;
+    margin-top: 2vw;
+  }
+
+  #boton3 {
+    z-index: 0 !important;
+    position: relative;
+    height: 8vw;
+    margin-top: 2vw;
+  }
+
+  #boton4 {
+    z-index: 3;
+    position: relative;
+    height: 8vw;
+    margin-top: 2vw;
+    top: -30vw;
+    opacity: 0;
+  }
+
+  #boton5 {
+    z-index: 2;
+    position: relative;
+    height: 8vw;
+    margin-top: 2vw;
+    top: -40vw;
+  }
+
+  #modal-button,
+  #sign-in-button,
+  #sign-out-button {
+    width: 100%;
+  }
+
+  #sign-in-button-google {
+    width: 40vh;
+    height: 9.63vh;
+  }
+
+  .button-color {
+    width: 85vh;
+    box-sizing: border-box;
+    background-color: #4d4d4d !important;
+    box-shadow: 5px 5px 5px 1px rgba(0, 0, 0, 0.5);
+  }
+
+  .button-color-2 {
+    width: 100%;
+    box-sizing: border-box;
+    background-color: #4d4d4d !important;
+    font-size: 15px;
+    padding: 0px;
+  }
+
+  .form-buttons {
+    width: 100%;
+  }
+
+  /*Icons*/
+  .icon3 {
+    color: #4d4d4d;
+    font-size: 180%;
+  }
+
+  .icon4 {
+    color: #4d4d4d;
+    font-size: 110%;
+  }
+
+  .icon5 {
+    color: #4d4d4d;
+    font-size: 170%;
+  }
+
+  .icon6 {
+    color: #4d4d4d;
+    font-size: 170%;
+  }
+
+  .icon7 {
+    color: #4d4d4d;
+    font-size: 200%;
+  }
+
+
+  h5 {
+    margin: 0px;
+  }
+
+  table {
+    opacity: 0;
+  }
+
+  thead {
+    text-align: center;
+  }
+
+
+  tbody {
+    text-align: center;
+  }
+
+  .first-column {
+    text-align: left;
+  }
+
+  a {
+    color: black;
+  }
+
+  [data-href] {
+    cursor: pointer;
+  }
+
+  tr {
+    width: 100%;
+  }
+
+  .index-rows {
+    margin-top: 4vw;
+  }
+
+  .modal-content {
+    border-radius: 25px;
+    border: 2px solid #4d4d4d;
+    width: 95vh;
+  }
+
+  .animationpPart-1-2 {
+    opacity: 0;
+  }
+
+  #map {
+    opacity: 1 !important;
+    width: 83.5vh !important;
+    height: 100% !important;
+  }
+
+  #team-select-options {
+    position: absolute !important;
+    opacity: 1 !important;
+    top: 65vw;
+    left: 0%;
+  }
+
+  #teamSelect {
+    width: 48vh;
+    margin-right: 1vh;
+  }
+
+  .whatsapp-border-space {
+    padding-left: 3vh;
+  }
+
+  .loc-underline {
+    text-decoration: underline;
+  }
+
+  #setup_button {
+    display: none;
+  }
+
+  .modFoo1 {
+    display: inline-block;
+    width: 47vh;
+  }
+
+  .modFoo2 {
+    display: inline-block;
+    width: 35vh;
+    margin-left: 4vh;
+    padding-top: 0.2vw;
+  }
+
+  .modFoo3 {
+    margin-top: 0.75vw;
+    text-align: right;
+  }
+}
+
+.color-botones {
+  background-color: #4d4d4d !important;
+}
+
+.alineado-texto {
+  text-align: center !important;
+}
